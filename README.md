@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: employees, calls, and employee_managers
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: AR creates many methods that are built in, but the ones most relevant to this application are the .all method and .create. The methods written in the models were created with activerecord's help because AR turns table columns into methods, although those methods are not explicity created by activerecord. 
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: Whenever there is a many to many relationship we have to use a join table.
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: calls and employee_managers are the join tables. 
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_

@@ -1,4 +1,4 @@
-class EmployeeManagers < ActiveRecord::Base
+class EmployeeManager < ActiveRecord::Base
 belongs_to :employee
 belongs_to :manager
 

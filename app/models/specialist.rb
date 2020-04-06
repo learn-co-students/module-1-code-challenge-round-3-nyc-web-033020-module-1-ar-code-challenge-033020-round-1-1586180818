@@ -11,7 +11,8 @@ end
 #Returns all of the specialist's employees
 
 def employees
-self.employees
+spec = calls.where(specialist_id: self)
+spec.employees
 end
 
 #Specialist.all`
@@ -19,6 +20,7 @@ end
 
 def self.all
     self.all
+
 end
 
 

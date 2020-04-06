@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: employees, employeemanagers and employeespecialists
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: ActiveRecord created all of them except Employee.most_calls
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: When 2 models have a many to many relations
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: Employeemanager and Employeespecialist
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_

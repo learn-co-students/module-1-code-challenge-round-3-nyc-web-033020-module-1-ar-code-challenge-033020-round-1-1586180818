@@ -14,6 +14,6 @@ class Employee < ActiveRecord::Base
     end
 
     def self.most_calls #Returns the employee with the highest number of calls to Specialists
-        self.all.find {|t| if t.spec_calls_count == Employee.spec_calls_count.max}
+        # self.all.find {|t| if t.spec_calls_count == Employee.spec_calls_count.max}
     end
 end

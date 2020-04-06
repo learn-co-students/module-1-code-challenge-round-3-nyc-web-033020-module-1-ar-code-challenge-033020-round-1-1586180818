@@ -4,6 +4,8 @@ class CreateEmployees < ActiveRecord::Migration[6.0]
       t.string :name
       t.integer :manager_id
       t.integer :department_id
+      t.integer :shift_id
+      t.integer :specialist.id
     end
   end
 end

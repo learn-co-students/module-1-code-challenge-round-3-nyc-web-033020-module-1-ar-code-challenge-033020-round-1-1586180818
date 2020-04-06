@@ -12,9 +12,11 @@ def employee_manager
         manager.employee == self
     end 
 end
+
+def most_calls
+
 =begin
 activerecord does these method for us
 -Employee#name
--Employee#manager
 -Employee#department
 =end

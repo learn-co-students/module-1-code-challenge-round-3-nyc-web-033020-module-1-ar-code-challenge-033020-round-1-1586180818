@@ -6,5 +6,10 @@ end
 =begin
 activerecord does these method for us
 -Specialist#name
--Specialist#employees
 =end
+
+def employee_specialist
+    Employee.all.select do |employee|
+       employee.specialist == self
+    end 
+end

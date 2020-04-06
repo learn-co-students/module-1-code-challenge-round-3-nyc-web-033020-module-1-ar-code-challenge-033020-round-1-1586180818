@@ -7,3 +7,4 @@ activerecord does these method for us
 -Department#name
 -Department#employees
 =end
+

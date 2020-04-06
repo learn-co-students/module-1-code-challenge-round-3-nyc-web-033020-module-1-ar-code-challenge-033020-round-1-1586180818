@@ -1,4 +1,4 @@
 class Shift < ActiveRecord::Base
-    has_many :managers
-    has_many :employees
+    belongs_to :manager
+    belongs_to :employee
 end

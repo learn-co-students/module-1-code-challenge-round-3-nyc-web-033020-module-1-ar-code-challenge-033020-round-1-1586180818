@@ -2,6 +2,8 @@ class Employee < ActiveRecord::Base
     belongs_to :department
     has_many :checks
     has_many :managers, through: :checks
+    has_many :calls 
+    has_many :specialists, through: :calls    
 end
 
 # An Employee:

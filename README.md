@@ -89,16 +89,16 @@ An Employee:
 A Specialist:
 
 - has a name
-- has many Employees
+- has many Employees 
 
   `Specialist#name`
-    - Returns the specialist's name
+    - Returns the specialist's name #done
 
   `Specialist#employees`
-    - Returns all of the specialist's employees
+    - Returns all of the specialist's employees #done
 
   `Specialist.all`
-    - Returns all of the specialists
+    - Returns all of the specialists #done
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO THE NEXT DELIVERABLE\*\*_
 
@@ -106,7 +106,7 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: 
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 

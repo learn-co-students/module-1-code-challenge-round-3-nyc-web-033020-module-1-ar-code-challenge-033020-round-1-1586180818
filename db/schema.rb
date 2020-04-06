@@ -10,10 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_03_204950) do
+ActiveRecord::Schema.define(version: 2020_04_06_142941) do
+
+  create_table "employee_specialists", force: :cascade do |t|
+    t.integer "employee_id"
+    t.integer "specialist_id"
+  end
 
   create_table "employees", force: :cascade do |t|
     t.string "name"
+  end
+
+  create_table "manager_employees", force: :cascade do |t|
+    t.integer "manager_id"
+    t.integer "employee_id"
   end
 
   create_table "managers", force: :cascade do |t|

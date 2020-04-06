@@ -4,6 +4,19 @@ class Employee < ActiveRecord::Base
     has_many :managers, through: :checks
     has_many :calls 
     has_many :specialists, through: :calls    
+    
+    def self.highest_call_counts
+        Employee.all.map do |e| e.calls.count end.max
+    end
+
+    def self.most_calls_name
+        Employee.all.detect do |e| e.calls.count == highest_call_counts 
+        e.name end 
+    end
+
+    def self.most_calls 
+        Employee.most_calls.name
+    end
 end
 
 # An Employee:

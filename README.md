@@ -110,7 +110,7 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here: AR creates many methods that are built in, but the ones most relevant to this application are the .all method and .create. The methods written in the models were created with activerecord's help because AR turns table columns into methods, although those methods are not explicity created by activerecord. 
+    Answer Here: AR creates many methods that are built in, but the ones most relevant to this application are the .all method, .create. The methods written in the models were created with activerecord's help because AR turns table columns into methods, allowing a user to access the column information as a method although it was not explicitly stated as a method by the writer.
 
   How do you know when you need to use a join table?
 

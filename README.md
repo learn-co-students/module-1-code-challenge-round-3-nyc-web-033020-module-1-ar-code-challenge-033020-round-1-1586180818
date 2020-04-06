@@ -70,7 +70,7 @@ An Employee:
 - has many managers
 
   `Employee#managers`
-    - Returns all of the employee's managers
+    - Returns all of the employee's managers #done
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 1" AND THEN PROCEED TO THE NEXT DELIVERABLE\*\*_
 
@@ -81,7 +81,7 @@ An Employee:
 - has many Specialists
 
   `Employee#specialists`
-    - Returns all of the employee's specialists
+    - Returns all of the employee's specialists #done
 
   `Employee.most_calls`
     - Returns the employee with the highest number of calls to Specialists
@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here: 
+    Answer Here: Employee_Specialist and Manager_Employee
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: All except `Employee.most_calls`
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: When there is a many to many relationship
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: Employee_Specialist and Manager_Employee
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_

@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: The shif.rb and the emp_special.rb hold the foreign keys.
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: ActiceRecord linked the associations to get certain classes names and id numbers. We had to create the jointer models and the relations between them.
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: When there are 2 classes that both have a many to many relationship with each other.
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: The join tables here are the shift.rb that connects the managers and the employess and the other one is emp_special.rb which connects the employees and specialsits.
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_

@@ -106,18 +106,18 @@ _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 2" AND THEN PROCEED TO TH
 
   Which table(s) have foreign key(s)?
 
-    Answer Here:
+    Answer Here: Employee, Supervisor, EmployeeSpecialist
 
   For this domain, which methods did ActiveRecord create for us and which did we have to create ourselves?
 
-    Answer Here:
+    Answer Here: All of the attribute methods that represent a column on the table or a join relationship with another table were created using ActiveRecord. The employee.most_calls method and the helper method employee.highest_calls were created separately. 
 
   How do you know when you need to use a join table?
 
-    Answer Here:
+    Answer Here: Join table is used to resolve a many-to-many relationship. 
 
   What is/are the join table(s) in this application?
 
-    Answer Here:
+    Answer Here: Supervisor to resolve the many-to-many relationship between Employee and Manager and EmployeeSpecialist to resolve the many-to-many relationship between Employee and Specialist. 
 
 _\*\*DO A GIT ADD AND COMMIT WITH MESSAGE "deliverable 3" \*\*_
